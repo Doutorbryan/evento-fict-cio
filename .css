@@ -1,0 +1,80 @@
+/* ===== Estilo Geral ===== */
+body {
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(135deg, #e0f7fa, #fff);
+    margin: 0;
+    padding: 5vh; /* altura relativa à janela */
+    color: #333;
+    text-align: center;
+}
+
+/* ===== Cabeçalho ===== */
+h1 {
+    font-size: 3rem; /* tamanho relativo à raiz */
+    color: #00695c;
+    margin-bottom: 0.5em;
+}
+
+h2 {
+    font-size: 2em; /* relativo ao elemento pai */
+    color: #004d40;
+    margin-top: 0;
+}
+
+/* ===== Conteúdo principal ===== */
+.conteudo {
+    width: 80%; /* relativo ao container */
+    margin: 0 auto;
+    padding: 2em; /* relativo ao tamanho da fonte */
+    background: #ffffffcc;
+    border-radius: 1em;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* ===== Seção de descrição ===== */
+.descricao {
+    width: 50vw; /* largura relativa à viewport */
+    height: auto;
+    margin: 2em auto;
+}
+
+.descricao p {
+    font-size: 1.1em;
+    margin-bottom: 1em;
+}
+
+.imagem-evento {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    padding: 10px 20px; /* px fixos */
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+
+/* ===== Seção de inscrição ===== */
+.inscricao {
+    margin-top: 2em;
+}
+
+.botao-inscrever {
+    background-color: #009688;
+    color: white;
+    border: none;
+    padding: 10px 20px; /* px */
+    font-size: 1em; /* relativo ao elemento pai */
+    border-radius: 0.5em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.botao-inscrever:hover {
+    background-color: #00796b;
+    transform: scale(1.05);
+}
+
+/* ===== Rodapé ===== */
+footer {
+    margin-top: 3em;
+    font-size: 0.9em;
+    color: #555;
+}
